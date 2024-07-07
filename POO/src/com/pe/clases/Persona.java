@@ -22,9 +22,9 @@ public class Persona {
         this.email = email;
         this.telefono = telefono;
     }
-    
-    public Persona(){
-        
+
+    public Persona() {
+
     }
 
     public int getIdPersona() {
@@ -69,8 +69,8 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" + "idPersona=" + idPersona + ", nombre=" + nombre + ", apellidos=" + apellidos + ", email=" + email + ", telefono=" + telefono + '}';
+        return "Persona{" + "idPersona=" + idPersona + ", nombre=" + nombre + ", apellidos=" + apellidos + ", email="
+                + email + ", telefono=" + telefono + '}';
     }
-    
-    
+
 }

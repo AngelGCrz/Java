@@ -8,11 +8,11 @@ package com.pe.polimorfismo;
  *
  * @author Angel
  */
-public class Perro extends Animal{
+public class Perro extends Animal {
 
     @Override
     public void animalSonido() {
         System.out.println("El perro dice: bow wow");
     }
-    
+
 }

@@ -13,7 +13,7 @@ public class Main {
         Animal miAnimal = new Animal();
         Animal miCerdo = new Cerdo();
         Animal miPerro = new Perro();
-        
+
         miAnimal.animalSonido();
         miCerdo.animalSonido();
         miPerro.animalSonido();

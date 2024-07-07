@@ -9,6 +9,7 @@ package com.pe.interfaz;
  * @author Angel
  */
 public interface Animal {
-    public void animalSonido(); //metodo interfaz (no tiene cuerpo)
-    public void dormir(); //metodo interfaz (no tiene cuerpo)
+    public void animalSonido(); // metodo interfaz (no tiene cuerpo)
+
+    public void dormir(); // metodo interfaz (no tiene cuerpo)
 }

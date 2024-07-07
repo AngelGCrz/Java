@@ -7,8 +7,8 @@ package com.pe.herencia;
  */
 public class Vehiculo {
     protected String marca = "Toyota";
-    
-    public void claczon(){
+
+    public void claczon() {
         System.out.println("Tuu, tuut!");
     }
 }

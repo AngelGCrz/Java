@@ -7,9 +7,9 @@ package com.pe.interfaz;
  */
 public class Main {
     public static void main(String[] args) {
-        Cerdo miCerdo = new Cerdo(); //Crea un objeto cerdo
+        Cerdo miCerdo = new Cerdo(); // Crea un objeto cerdo
         miCerdo.animalSonido();
         miCerdo.dormir();
     }
-    
+
 }

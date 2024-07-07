@@ -5,7 +5,7 @@ package com.pe.interfaz;
  *
  * @author Angel
  */
-public class Cerdo implements Animal{
+public class Cerdo implements Animal {
 
     @Override
     public void animalSonido() {
@@ -16,5 +16,5 @@ public class Cerdo implements Animal{
     public void dormir() {
         System.out.println("Zzz");
     }
-    
+
 }

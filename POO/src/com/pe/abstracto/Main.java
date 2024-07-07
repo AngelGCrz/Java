@@ -7,7 +7,7 @@ package com.pe.abstracto;
  */
 public class Main {
     public static void main(String[] args) {
-        
+
         Cerdo miCerdo = new Cerdo();
         miCerdo.animalSonido();
         miCerdo.dormir();

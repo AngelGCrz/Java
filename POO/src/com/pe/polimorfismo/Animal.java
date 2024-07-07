@@ -9,7 +9,7 @@ package com.pe.polimorfismo;
  * @author Angel
  */
 public class Animal {
-    public void animalSonido(){
+    public void animalSonido() {
         System.out.println("Sonido de Animales");
     }
 }
