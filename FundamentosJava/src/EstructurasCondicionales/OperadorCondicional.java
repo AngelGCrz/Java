@@ -16,6 +16,6 @@ public class OperadorCondicional {
         int num;
         System.out.println("Introduzca numero: ");
         num = sc.nextInt();
-        System.out.println(num >= 0 ? "POSITIVO" : "NEGATIVO");          
+        System.out.println(num >= 0 ? "POSITIVO" : "NEGATIVO");
     }
 }

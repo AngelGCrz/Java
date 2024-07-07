@@ -13,7 +13,7 @@ public class CondicionalMultiple {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int hora;
-        System.out.print("Introduzca una hora (>= 0 y <= 23): ");                                                 
+        System.out.print("Introduzca una hora (>= 0 y <= 23): ");
         hora = sc.nextInt();
         if (hora >= 0 && hora < 12) {
             System.out.println("Buenos días");
@@ -24,6 +24,6 @@ public class CondicionalMultiple {
         } else {
             System.out.println("Hora no válida");
         }
-        System.out.println("Hasta pronto!!!");         
+        System.out.println("Hasta pronto!!!");
     }
 }

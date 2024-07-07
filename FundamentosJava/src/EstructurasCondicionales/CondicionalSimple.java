@@ -13,13 +13,13 @@ import java.util.Scanner;
 
 public class CondicionalSimple {
     public static void main(String[] args) {
-        Scanner sc = new Scanner( System.in );
+        Scanner sc = new Scanner(System.in);
         System.out.print("Nota: ");
         int nota = sc.nextInt();
-        if (nota >= 5){//----------------------inicio de la condición                                             
+        if (nota >= 5) {// ----------------------inicio de la condición
             System.out.println("Enhorabuena!!");
             System.out.println("Has aprobado");
-        }//-------------------------------------fin de la condición
+        } // -------------------------------------fin de la condición
         System.out.println("Hasta Pronto!");
     }
 }
