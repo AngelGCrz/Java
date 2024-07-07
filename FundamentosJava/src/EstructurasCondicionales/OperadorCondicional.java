@@ -12,10 +12,11 @@ import java.util.Scanner;
  */
 public class OperadorCondicional {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num;
-        System.out.println("Introduzca numero: ");
-        num = sc.nextInt();
-        System.out.println(num >= 0 ? "POSITIVO" : "NEGATIVO");
+        try (Scanner sc = new Scanner(System.in)) {
+            int num;
+            System.out.println("Introduzca numero: ");
+            num = sc.nextInt();
+            System.out.println(num >= 0 ? "POSITIVO" : "NEGATIVO");
+        }
     }
 }

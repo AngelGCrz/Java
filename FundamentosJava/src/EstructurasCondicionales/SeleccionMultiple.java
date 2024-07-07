@@ -12,9 +12,10 @@ import java.util.Scanner;
 public class SeleccionMultiple {
         public static void main(String[] args) {
                 int mes;
-                Scanner sc = new Scanner(System.in);
-                System.out.print("Introduzca un numero de mes: ");
-                mes = sc.nextInt();
+                try (Scanner sc = new Scanner(System.in)) {
+                        System.out.print("Introduzca un numero de mes: ");
+                        mes = sc.nextInt();
+                }
                 switch (mes) { // inicio del switch
                         case 1:
                                 System.out.println("ENERO");
